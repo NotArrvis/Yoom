@@ -8,6 +8,7 @@ const Home = () => {
 	const time = now.toLocaleTimeString('pt-Br', {
 		hour: '2-digit',
 		minute: '2-digit',
+		localeMatcher: 'best fit',
 	});
 	const date = new Intl.DateTimeFormat('pt-br', { dateStyle: 'full' }).format(
 		now
