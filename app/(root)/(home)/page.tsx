@@ -9,9 +9,9 @@ const Home = () => {
 			<div className="h-[300px] w-full rounded-[20px] bg-hero bg-cover">
 				<div className="flex h-full flex-col justify-between max-md:px-5 max-md:py-8 lg:p-11">
 					<UpcomingMeeting />
+					<HomePageDate />
 				</div>
 			</div>
-			<HomePageDate />
 			<MeetingTypeList />
 		</section>
 	);
